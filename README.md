@@ -1,4 +1,4 @@
-# LLM-Based Question and Answer System
+# AI AUTO GRADER
 
 A Python application where teachers can create questions, students can submit answers, and a large language model (LLM) evaluates and provides feedback on those answers.
 
@@ -23,11 +23,14 @@ A Python application where teachers can create questions, students can submit an
 ## Setup
 
 1. Clone this repository
-2. Install dependencies:
+    ```
+    git clone "https://github.com/Vishnu-Gupta-K/AI-Auto-Grader"
+    ```
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Set up your Google Gemini API key:
+4. Set up your Google Gemini API key:
    - Copy `.env.example` to `.env`
    - Add your Gemini API key to the `.env` file
 
